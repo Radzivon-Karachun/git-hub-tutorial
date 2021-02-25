@@ -1,0 +1,1 @@
+These are my attempts to take a course on Python in Coursera and find a solution to all the proposed tasks.
