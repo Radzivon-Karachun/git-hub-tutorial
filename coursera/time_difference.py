@@ -1,0 +1,8 @@
+HIn1 = int(input())
+MIn1 = int(input())
+SIn1 = int(input())
+HIn2 = int(input())
+MIn2 = int(input())
+SIn2 = int(input())
+SOut = (SIn2 + MIn2 * 60 + HIn2 * 3600) - (SIn1 + MIn1 * 60 + HIn1 * 3600)
+print(SOut)
