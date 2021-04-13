@@ -1,0 +1,23 @@
+import random
+
+number = random.randint(0, 101)
+
+while 1:
+
+    answer = input('Enter the number: ')
+    if not answer or answer == 'exit':
+        break
+
+    if not answer.isdigit():
+        print('Enter the correct number!')
+        continue
+
+    user_answer = int(answer)
+
+    if user_answer > number:
+        print('Conceived number is less')
+    elif user_answer < number:
+        print('Conceived number greater')
+    else:
+        print('You winn!')
+        break
